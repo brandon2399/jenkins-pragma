@@ -22,7 +22,7 @@ public class HelloController {
         return "Hola Mundo con REST en Spring Boot";
     }
 
-
+    //check triger
     @GetMapping("/hello3")
     public String saludar3(){
         return "Hola Mundo con REST en Spring Boot";
